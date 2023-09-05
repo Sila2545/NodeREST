@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/CRUDBookNoDB.js",
+    "start": "node src/index.js",
     "format": "prettier --write *.js",
-    "dev": "nodemon src/CRUDBookNoDB.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/Sila2545/NodeREST#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20",
+    "nodemon": "^3.0.1",
     "prettier": "^2.8.3"
   },
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
   }
 }
